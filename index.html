@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./plugins/swiper/swiper.min.css">
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/index.css">
+    
     <title>Document</title>
 </head>
 
@@ -25,19 +27,29 @@
     <!-- nav区域 -->
     <div class="nav w">
         <ul>
-            <li> <a href="#">首页</a> </li>
-            <li> <a href="#">海关服务</a> </li>
-            <li> <a href="#">客户案例</a> </li>
-            <li> <a href="#">海关新政</a> </li>
-            <li> <a href="#">帮助中心</a> </li>
-            <li> <a href="#">关于我们</a> </li>
+            <li> <a href="index.html">首页</a> </li>
+            <li> <a href="serve.html">海关服务</a> </li>
+            <li> <a href="customer.html">客户案例</a> </li>
+            <li> <a href="news.html">海关新政</a> </li>
+            <li> <a href="servePerson.html">帮助中心</a> </li>
+            <li> <a href="connect.html">关于我们</a> </li>
         </ul>
     </div>
 
     <!-- banner区域 -->
-    <div class="banner w">
-        <img src="./images/banner.jpg" alt="">
+    <div class="bannde w">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="./images/banner.jpg"></div>
+                <div class="swiper-slide"><img src="./images/banner.jpg"></div>
+                <div class="swiper-slide"><img src="./images/banner.jpg"></div>
+                <div class="swiper-slide"><img src="./images/banner.jpg"></div>
+                <div class="swiper-slide"><img src="./images/banner.jpg"></div>
+            </div>
+           
+        </div>
     </div>
+
 
     <!-- category区域 -->
     <div class="category w">
@@ -232,17 +244,17 @@
                 <div class="img">
                     <img src="./imgs/pic2.jpg" alt="">
                 </div>
-               
+
                 <div class="describe">深圳市鸿鹏进出口有限公司成立于2002年，注册资本1000万
-                元，是经国家经贸部、海关总署批准，专业从事冷冻肉类食品
-                进出口自营、代理经营的公司。主要经营范围：经营进口业
-                务；投资兴办实业；纺织品、机电产品、初级农产品的销售及
-                其他国内贸易；预包装食品、乳制品的批发等业务。公司经营
-                十多年来，一直秉承“服务至上”的理念，为客户提供高品质
-                的产品，提供安全……
+                    元，是经国家经贸部、海关总署批准，专业从事冷冻肉类食品
+                    进出口自营、代理经营的公司。主要经营范围：经营进口业
+                    务；投资兴办实业；纺织品、机电产品、初级农产品的销售及
+                    其他国内贸易；预包装食品、乳制品的批发等业务。公司经营
+                    十多年来，一直秉承“服务至上”的理念，为客户提供高品质
+                    的产品，提供安全……
                 </div>
             </div>
-        </div>       
+        </div>
     </div>
 
     <!-- 客户案例 -->
@@ -258,12 +270,24 @@
         </div>
         <div class="bottom">
             <ul>
-                <li> <img src="./imgs/pic3.jpg" alt=""> <p>化妆品进口</p></li>                 
-                <li> <img src="./imgs/pic3.jpg" alt=""> <p>化妆品进口</p></li>                 
-                <li> <img src="./imgs/pic3.jpg" alt=""> <p>化妆品进口</p></li>                 
-                <li> <img src="./imgs/pic3.jpg" alt=""> <p>化妆品进口</p></li>                 
-                <li> <img src="./imgs/pic3.jpg" alt=""> <p>化妆品进口</p></li>                 
-                <li> <img src="./imgs/pic3.jpg" alt=""> <p>化妆品进口</p></li>                 
+                <li> <img src="./imgs/pic3.jpg" alt="">
+                    <p>化妆品进口</p>
+                </li>
+                <li> <img src="./imgs/pic3.jpg" alt="">
+                    <p>化妆品进口</p>
+                </li>
+                <li> <img src="./imgs/pic3.jpg" alt="">
+                    <p>化妆品进口</p>
+                </li>
+                <li> <img src="./imgs/pic3.jpg" alt="">
+                    <p>化妆品进口</p>
+                </li>
+                <li> <img src="./imgs/pic3.jpg" alt="">
+                    <p>化妆品进口</p>
+                </li>
+                <li> <img src="./imgs/pic3.jpg" alt="">
+                    <p>化妆品进口</p>
+                </li>
             </ul>
         </div>
     </div>
@@ -320,6 +344,19 @@
             版权所有 © 深圳市鸿鹏进出口有限公司 粤ICP备15107699号 技术支持：华鑫峰网站建设公司
         </div>
     </div>
+    <script src="./plugins/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            loop: true,
+            autoplay: {
+                delay: 2000,
+                stopOnLastSlide: false,
+                disableOnInteraction: true,
+            },
+            mousewheel: true,
+            keyboard: true,
+        });
+    </script>
 </body>
 
 </html>

@@ -9,6 +9,7 @@
     margin: 0 auto;
 }
 
+
 li {
     list-style: none;
 }
@@ -133,7 +134,7 @@ a {
 
 /* 左侧导航公共区域 */
 
- .nav-left {
+.nav-left {
     position: relative;
     float: left;
     width: 180px;
@@ -141,7 +142,7 @@ a {
     background-color: #01609A;
 }
 
- .nav-left .img {
+.nav-left .img {
     width: 180px;
     height: 80px;
     background-image: url(../images/bg_8.jpg);
@@ -154,7 +155,7 @@ a {
     background-color: aliceblue;
 }
 
- .nav-left .serve-nav ul li {
+.nav-left .serve-nav ul li {
     width: 100%;
     height: 50px;
     font-size: 14px;
@@ -175,7 +176,7 @@ a {
 
 
 /* 分页器 */
- .pagination {
+.pagination {
     width: 100%;
     height: 25px;
     margin-top: 40px;
@@ -183,7 +184,7 @@ a {
 }
 
 
- .pagination ul li {
+.pagination ul li {
     font-size: 13px;
     float: left;
     width: 20px;
@@ -217,3 +218,51 @@ a {
     color: aqua;
     border-bottom: 1px solid aqua;
 }
+
+/* 轮播 */
+  html,
+  body {
+      position: relative;
+      height: 100%;
+  }
+
+  body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+  }
+
+  .swiper {
+      width: 100%;
+      height: 100%;
+  }
+
+  .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+  }
+
+  .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+  }
