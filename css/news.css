@@ -1,0 +1,32 @@
+.new-container{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.new-container   .container-right{
+    float: right;
+    width: 980px;
+    height: 600px;
+   
+}
+.new-container .container-right .list{
+    width: 100%;
+}
+
+.new-container .container-right ul{
+    margin-top: 30px;
+}
+
+.new-container .container-right ul li{
+    font-size: 13px;
+    line-height: 30px;
+    margin-left: 2em;
+    cursor: pointer;
+    list-style-image: url(../images/icon10.png);
+}
+
+.new-container .container-right  .list-right{
+    margin-right: 20px;
+    list-style: none;
+    float: right;
+}

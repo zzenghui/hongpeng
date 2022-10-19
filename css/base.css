@@ -89,6 +89,8 @@ a {
     margin-top: 10px;
     width: 100%;
 }
+
+/* 尾部公共区域 */
 .footer {
     width: 100%;
     height: 300px;
@@ -127,4 +129,91 @@ a {
     text-align: center;
     line-height: 50px;
     background-color: #222;
+}
+
+/* 左侧导航公共区域 */
+
+ .nav-left {
+    position: relative;
+    float: left;
+    width: 180px;
+    height: 130px;
+    background-color: #01609A;
+}
+
+ .nav-left .img {
+    width: 180px;
+    height: 80px;
+    background-image: url(../images/bg_8.jpg);
+}
+
+.nav-left .serve-nav {
+    position: absolute;
+    left: 5px;
+    width: 175px;
+    background-color: aliceblue;
+}
+
+ .nav-left .serve-nav ul li {
+    width: 100%;
+    height: 50px;
+    font-size: 14px;
+    line-height: 50px;
+    padding-left: 30px;
+    padding-right: 15px;
+    cursor: pointer;
+}
+
+.nav-left .serve-nav ul li:hover {
+    background-color: #ccc;
+}
+
+.nav-left .serve-nav ul li img {
+    float: right;
+    margin-top: 20px;
+}
+
+
+/* 分页器 */
+ .pagination {
+    width: 100%;
+    height: 25px;
+    margin-top: 40px;
+    padding: 0 300px;
+}
+
+
+ .pagination ul li {
+    font-size: 13px;
+    float: left;
+    width: 20px;
+    height: 25px;
+    text-align: center;
+    line-height: 20px;
+    margin-right: 20px;
+}
+
+.pagination ul li button {
+    width: 100%;
+    height: 100%;
+}
+
+/* 右侧头部区域 */
+.location {
+    width: 100%;
+    height: 30px;
+    text-align: right;
+    line-height: 30px;
+    padding-right: 30px;
+    font-size: 13px;
+}
+
+/* 导航高亮 */
+.naving {
+    width: 100px;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+    color: aqua;
+    border-bottom: 1px solid aqua;
 }

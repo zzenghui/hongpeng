@@ -3,46 +3,7 @@
     margin-bottom: 50px;
 }
 
-.serve .nav-left {
-    position: relative;
-    float: left;
-    width: 180px;
-    height: 130px;
-    background-color: #01609A;
-}
 
-.serve .nav-left .img{
-    width: 180px;
-    height: 80px;
-    background-image: url(../images/bg_8.jpg);
-}
-
-.serve .nav-left .serve-nav {
-    position: absolute;
-    left: 5px;
-    width: 175px;
-    
-    background-color: aliceblue;
-}
-
-.serve .nav-left .serve-nav ul li {
-    width: 100%;
-    height: 50px;
-    font-size: 14px;
-    line-height: 50px;
-    padding-left: 30px;
-    padding-right: 15px;
-    cursor: pointer;
-}
-
-.serve .nav-left .serve-nav ul li:hover {
-    background-color: #ccc;
-}
-
-.serve .nav-left .serve-nav ul li img {
-    float: right;
-    margin-top: 20px;
-}
 
 .serve .infor {
     float: right;
@@ -50,23 +11,8 @@
     
 }
 
-.serve .infor .location {
-    width: 100%;
-    height: 30px;
-    text-align: right;
-    line-height: 30px;
-    padding-right: 30px;
-    font-size: 13px;
-}
 
-.serve .infor .naving {
-    width: 100px;
-    text-align: center;
-    margin-top: 50px;
-    font-size: 20px;
-    color: aqua;
-    border-bottom: 1px solid aqua;
-}
+
 
 
 .serve .infor .pro {
