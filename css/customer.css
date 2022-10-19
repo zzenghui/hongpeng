@@ -1,0 +1,62 @@
+.content-customer {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.content-customer .title {
+    width: 100%;
+    height: 80px;
+
+    padding-right: 40px;
+}
+
+.content-customer .title .img {
+    float: left;
+    width: 180px;
+    height: 80px;
+    background-image: url(../images//bg_8.jpg);
+}
+
+.content-customer .title span {
+    float: right;
+    font-size: 13px;
+    line-height: 80px;
+}
+
+.content-customer .list {
+    margin-top: 30px;
+    width: 100%;
+    height: 420px;
+}
+
+.content-customer .list ul li {
+    float: left;
+    margin-bottom: 15px;
+    margin-left: 17px;
+    width: 220px;
+    height: 200px;
+}
+
+
+.content-customer .pagination {
+    width: 100%;
+    height: 25px;
+    margin-top: 40px;
+    padding: 0 300px;
+}
+
+
+.content-customer .pagination ul li {
+    font-size: 13px;
+    float: left;
+    width: 20px;
+    height: 25px;
+    text-align: center;
+    line-height: 20px;
+    margin-right: 20px;
+}
+
+.content-customer .pagination ul li button {
+    width: 100%;
+    height: 100%;
+}

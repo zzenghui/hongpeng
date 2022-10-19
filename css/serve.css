@@ -7,7 +7,14 @@
     position: relative;
     float: left;
     width: 180px;
-    background-color: aqua;
+    height: 130px;
+    background-color: #01609A;
+}
+
+.serve .nav-left .img{
+    width: 180px;
+    height: 80px;
+    background-image: url(../images/bg_8.jpg);
 }
 
 .serve .nav-left .serve-nav {
